@@ -18,7 +18,6 @@ class GifListContainer extends Component {
   componentDidMount() {
       this.fetchGIFs();
   }
-   
   render() {
    return (
       <div>

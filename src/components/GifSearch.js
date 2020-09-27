@@ -19,8 +19,7 @@ handleSubmit = event => {
     return (
       <div>
        <form onSubmit={this.handleSubmit}>
-      <input type="text" style={{marginLeft: '50%'}} id="search" value={this.state.searchItem} onChange={this.handleChange}/>
-      <input type="submit"/>
+        <input type="text" style={{marginLeft: '50%'}} id="search" value={this.state.searchItem} onChange={this.handleChange}/>
       </form>
       </div>
   )
